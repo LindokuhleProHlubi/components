@@ -17,7 +17,7 @@ import { Geolocation } from '@ionic-native/geolocation';
 export class NativeGoogleMapsProvider {
   map: GoogleMap;
 
-  constructor(
+  constructor(       
     public geolocation: Geolocation,
     private googleMaps: GoogleMaps) {
   }
